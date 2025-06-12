@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jun 12 13:44:43 2025
+
+@author: Polina Smagina
+"""
+
+services:
+  - type: web
+    name: telegram-flask-bot
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
+    envVars:
+      - key: TOKEN
+        value: 7552462255:AAEkMMPlsedRLloda5E30cbmQs9jE_BFLho
